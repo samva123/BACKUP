@@ -85,6 +85,16 @@ DENSE_RANK() over (order by salary desc) as priority
 from employee) as temp
 where priority = 5 ;
 
+select * from 
+(select firstname , lastname , salary , location ,
+ROW_NUMBER() over (partition by location order by salary desc) as priority
+from employee) as temp
+where priority = 1 ;
+
+select firstname , lastname , salary , location ,
+ROW_NUMBER() over (partition by location order by salary desc) as priority
+from employee;
+
 
 
 
