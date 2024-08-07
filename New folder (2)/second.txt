@@ -1,0 +1,63 @@
+CREATE DATABASE SECOND;
+USE SECOND;
+
+-- Create the learner table
+CREATE TABLE learner (
+    learner_id INT PRIMARY KEY,
+    learner_name VARCHAR(100),
+    learner_email VARCHAR(100),
+    years_of_experience INT,
+    company VARCHAR(100),
+    source_of_joining VARCHAR(100)
+);
+
+-- Insert entries into the learner table
+INSERT INTO learner (learner_id, learner_name, learner_email, years_of_experience, company, source_of_joining) VALUES
+(1, 'Alice Johnson', 'alice.johnson@example.com', 5, 'TechCorp', 'LinkedIn'),
+(2, 'Bob Smith', 'bob.smith@example.com', 3, 'InnovateInc', 'Company Website'),
+(3, 'Carol White', 'carol.white@example.com', 7, 'DevSolutions', 'Referral'),
+(4, 'David Brown', 'david.brown@example.com', 2, 'WebTech', 'Job Fair'),
+(5, 'Eve Davis', 'eve.davis@example.com', 4, 'NextGen', 'Recruitment Agency'),
+(6, 'Frank Miller', 'frank.miller@example.com', 6, 'SoftWorks', 'LinkedIn'),
+(7, 'Grace Wilson', 'grace.wilson@example.com', 1, 'AlphaTech', 'Company Website');
+
+INSERT INTO learner (learner_id, learner_name, learner_email, years_of_experience, company, source_of_joining) VALUES
+(8, 'Grace Wilson', 'grace.wilson@example.com', 1, 'AlphaTech', 'Company Website');
+
+
+SELECT source_of_joining , count(*)
+from learner 
+group by source_of_joining;
+
+
+SELECT source_of_joining , company ,  count(*)
+from learner 
+group by source_of_joining , company;
+
+SELECT source_of_joining , years_of_experience ,  count(*)
+from learner 
+group by source_of_joining , years_of_experience order by max(years_of_experience) desc;
+
+
+select source_of_joining , MAX(years_of_experience)
+from learner
+group by source_of_joining;
+
+
+select source_of_joining , MIN(years_of_experience)
+from learner
+group by source_of_joining;
+
+
+-- display te students who havejoined from more than one source of joining (it is skipped)
+SELECT learner_name, learner_email
+FROM learner
+GROUP BY learner_name, learner_email
+HAVING COUNT(DISTINCT source_of_joining) > 1;
+
+
+
+select source_of_joining , count(*) as num_of_students
+from learner
+group by source_of_joining
+having num_of_students>1;

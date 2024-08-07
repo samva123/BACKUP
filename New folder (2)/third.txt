@@ -1,0 +1,107 @@
+CREATE DATABASE SECOND;
+USE SECOND;
+
+
+
+
+-- Create the employee table
+CREATE TABLE employee (
+    id SERIAL PRIMARY KEY,
+    firstname VARCHAR(50),
+    lastname VARCHAR(50),
+    location VARCHAR(50),
+    salary DECIMAL(10, 2)
+);
+
+-- Insert sample entries into the employee table
+INSERT INTO employee (firstname, lastname, location, salary) VALUES
+('John', 'Doe', 'New York', 70000.00),
+('Jane', 'Smith', 'Houston', 80000.00),
+('Emily', 'Jones', 'Chicago', 75000.00),
+('Michael', 'Brown', 'Houston', 65000.00),
+('Sarah', 'Davis', 'Phoenix', 72000.00),
+('David', 'Wilson', 'Phoenix', 68000.00),
+('Laura', 'Martinez', 'San Antonio', 73000.00);
+
+INSERT INTO employee (firstname, lastname, location, salary) VALUES
+('Varun', 'Doe', 'New York', 70000.00),
+('Taran', 'Smith', 'Houston', 80000.00),
+('Vidhi', 'Jones', 'Chicago', 70000.00),
+('Yatin', 'Brown', 'Houston', 65000.00),
+('Vyom ', 'Davis', 'Phoenix', 70000.00),
+('Yashasvi', 'Wilson', 'Phoenix', 65000.00),
+('Mohit', 'Martinez', 'San Antonio', 73000.00);
+
+
+
+-- for each loation what is thee count of eacch employee and avg salary of the employee in these location 
+
+select location , count(location) as total , avg(salary) as avg_salary
+from employee
+group by location;
+
+
+-- for each loation what is thee count of eacch employee and avg salary of the employee in these location 
+-- also display the firstname and lastname of each record
+
+select firstname , lastname , employee.location , total , avg_salary
+from employee
+join
+(select location , count(location) as total , avg(salary) as avg_salary
+from employee
+group by location) as temp 
+on employee.location = temp.location;
+
+-- when we see a group by cloumn but we also need a non-aggregated column we use 
+-- partition by
+-- it is a optimised version of above command
+
+select firstname , lastname , location ,
+count(location) over (partition by location) as total,
+avg(salary) over (partition by location) as average_salary
+from employee;
+
+
+-- to find priority and it works only for unique values 
+select firstname , lastname , salary ,
+ROW_NUMBER() over (order by salary desc)
+from employee;
+
+
+-- also work for non -unique values but it will also show 
+-- results 1,2,2,2,5,6,7
+select firstname , lastname , salary ,
+RANK() over (order by salary desc)
+from employee;
+
+select firstname , lastname , salary ,
+DENSE_RANK() over (order by salary desc)
+from employee;
+
+
+select * from 
+(select firstname , lastname , salary ,
+DENSE_RANK() over (order by salary desc) as priority
+from employee) as temp
+where priority = 5 ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

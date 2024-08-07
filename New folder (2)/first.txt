@@ -1,0 +1,56 @@
+CREATE DATABASE HELLO;
+USE HELLO;
+
+CREATE TABLE courses (
+    course_id INT PRIMARY KEY,
+    course_name VARCHAR(255) NOT NULL,
+    course_duration VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE learners (
+    learner_id INT PRIMARY KEY,
+    learner_name VARCHAR(255) NOT NULL,
+    learner_company VARCHAR(255),
+    learner_selected_course INT,
+    FOREIGN KEY (learner_selected_course) REFERENCES courses(course_id)
+);
+
+INSERT INTO courses (course_id, course_name, course_duration)
+VALUES
+    (1, 'Introduction to SQL', '4 weeks'),
+    (2, 'Advanced Data Structures', '6 weeks'),
+    (3, 'Web Development Basics', '8 weeks'),
+    (4, 'Machine Learning Fundamentals', '12 weeks');
+    
+INSERT INTO learners (learner_id, learner_name, learner_company, learner_selected_course)
+VALUES
+    (1, 'Alice Johnson', 'TechCorp', 1),
+    (2, 'Bob Smith', 'DataWorks', 2),
+    (3, 'Charlie Davis', 'WebSolutions', 3),
+    (4, 'Dana Lee', 'ML Innovations', 4),
+    (5, 'Eve Carter', 'TechCorp', 3);
+    
+
+SELECT COUNT(learner_id) from learners 
+where learner_selected_course = 3;
+
+-- there is no prolem using also the name of column in count but we have 
+-- to be sure it is not a null value in it otherwise it will not count but * 
+-- will count 
+
+CREATE TABLE employee (
+    eid INT,
+    firstname VARCHAR(255),
+    lastname VARCHAR(255),
+    company VARCHAR(255),
+    PRIMARY KEY (eid, firstname)
+);
+
+insert into employee(eid , firstname) values (101 , "priya");
+insert into employee(eid , firstname) values (102 , "priya");
+
+-- upar wali dono entries ho gayi thi
+-- bina error ke 
+
+
+select * from employee;
