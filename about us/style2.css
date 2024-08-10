@@ -1,0 +1,317 @@
+.anyone-anywhere {
+  background: linear-gradient(117.52deg, #5433ff, #20bdff 50%, #a5fecb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.world-class-learning-for-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 2.75rem;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #000814;
+}
+.studynotion-partners-with {
+  align-self: stretch;
+  position: relative;
+  line-height: 1.5rem;
+  font-weight: 500;
+  background-color: #000814;
+  
+}
+.fi-rr-add-icon {
+  height: 1.125rem;
+  width: 1.125rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  background-color: #161d29;
+}
+.button {
+  text-decoration: none;
+  position: relative;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-family: Inter;
+  color: #000814;
+  text-align: center;
+  display: inline-block;
+  min-width: 5.563rem;
+  white-space: nowrap;
+}
+.fi-rr-arrow-small-right-icon {
+  height: 1rem;
+  width: 1rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.primary-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  background-color: #ffd60a;
+  box-shadow: -2px -2px 0 rgba(255, 255, 255, 0.51) inset;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+.buttons,
+.partners,
+.world-class-learning {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: #000814;
+
+}
+
+.world-class-learning{
+    background-color: #000814;
+}
+.buttons {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 2.25rem 0 0;
+}
+.partners,
+.world-class-learning {
+  flex-direction: column;
+  gap: 0.75rem;
+  background-color: #000814;
+}
+.partners {
+  align-self: stretch;
+  font-size: 1rem;
+  color: #838894;
+}
+.world-class-learning {
+  flex: 1;
+  min-width: 22.688rem;
+  max-width: 100%;
+  background-color: #161d29;
+  background-color: #000814;
+}
+.curriculum-based-on {
+  align-self: stretch;
+  position: relative;
+  line-height: 1.625rem;
+  font-weight: 600;
+}
+.save-time-and {
+  align-self: stretch;
+  position: relative;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  color: #afb2bf;
+}
+.curriculum-details {
+  flex: 1;
+  background-color: #2c333f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem 2rem 5.625rem;
+  box-sizing: border-box;
+  gap: 2rem;
+  min-width: 11.938rem;
+}
+.our-learning {
+  margin: 0;
+}
+.curriculum-details1 {
+  flex: 1;
+  background-color: #161d29;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem 2rem 8.375rem;
+  box-sizing: border-box;
+  gap: 2rem;
+  min-width: 11.938rem;
+  min-height: 18.375rem;
+  
+}
+.curriculum,
+.unlock-your-coding-potential-w {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  background-color: #000814;
+}
+.curriculum {
+  width: 36.813rem;
+  min-width: 36.813rem;
+  row-gap: 20px;
+  font-size: 1.125rem;
+}
+.unlock-your-coding-potential-w {
+  align-self: stretch;
+  gap: 3.25rem;
+  text-align: left;
+  font-size: 2.25rem;
+  color: #f1f2ff;
+  font-family: Inter;
+  background-color: #161d29;
+  background-color: #000814;
+}
+.certification1,
+.you-will-get {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+   background-color: #161d29;
+}
+.certification1 {
+  height: 3.25rem;
+  line-height: 1.625rem;
+  font-weight: 600;
+  background-color: #161d29;
+}
+.you-will-get {
+  height: 4.125rem;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  color: #afb2bf;
+  background-color: #161d29;
+}
+.certification-details {
+  flex: 1;
+  background-color: #2c333f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem 2rem 7rem;
+  box-sizing: border-box;
+  gap: 2rem;
+  opacity: 0;
+  min-width: 13.813rem;
+  max-width: 18.375rem;
+}
+.certification3 {
+  align-self: stretch;
+  position: relative;
+  line-height: 1.625rem;
+  font-weight: 600;
+  display: inline-block;
+  min-height: 3.25rem;
+}
+.certification-details1,
+.certification-details2,
+.certification-details3 {
+  flex: 1;
+  background-color: #2c333f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem 2rem 7rem;
+  box-sizing: border-box;
+  gap: 2rem;
+  min-width: 13.813rem;
+  max-width: 18.375rem;
+}
+.certification-details2,
+.certification-details3 {
+  background-color: #161d29;
+  padding: 2rem 2rem 4.25rem;
+}
+.certification-details3 {
+  background-color: #2c333f;
+  padding: 2rem 2rem 5.625rem;
+}
+.certification,
+.root {
+  display: flex;
+  justify-content: center;
+}
+.certification {
+  width: 73.625rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  max-width: 100%;
+  row-gap: 20px;
+  text-align: left;
+  font-size: 1.125rem;
+  color: #f1f2ff;
+  font-family: Inter;
+}
+.root {
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 5.625rem 7.5rem;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  background-color: #000814;
+}
+@media screen and (max-width: 1200px) {
+  .curriculum {
+    flex: 1;
+  }
+  .unlock-your-coding-potential-w {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .world-class-learning-for-container {
+    font-size: 1.813rem;
+    line-height: 2.188rem;
+  }
+  .curriculum {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .world-class-learning {
+    min-width: 100%;
+  }
+  .curriculum {
+    flex-wrap: wrap;
+  }
+  .unlock-your-coding-potential-w {
+    gap: 1.625rem;
+  }
+  .root {
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .world-class-learning-for-container {
+    font-size: 1.375rem;
+    line-height: 1.625rem;
+  }
+  .certification-details,
+  .certification-details1,
+  .certification-details2,
+  .certification-details3,
+  .curriculum-details,
+  .curriculum-details1 {
+    gap: 1rem;
+  }
+  .root {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    box-sizing: border-box;
+  }
+}
