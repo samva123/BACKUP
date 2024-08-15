@@ -223,6 +223,7 @@ Node* bstFromInorder(int inorder[], int s, int e) {
 	return root;
 }
 
+// time is o(n) but space is o(h) and worst case is o(n)
 
 int main() {
 

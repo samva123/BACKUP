@@ -39,3 +39,10 @@ public:
         return root;
     }
 };
+
+
+// time complexity
+// worst case is O(n) and and best case is o(logn) 
+
+// space complexity
+// balanced tree is o(logn) otherwise o(n) means skewed tree

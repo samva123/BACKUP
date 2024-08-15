@@ -47,3 +47,9 @@ public:
         return false;
     }
 };
+
+// time complexity
+// worst case is O(n) + o(n) = o(n) 
+
+// space complexity
+// it is o(n)

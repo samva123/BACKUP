@@ -32,3 +32,10 @@ public:
         
     }
 };
+
+
+// time complexity
+// worst case is O(n) and and best case is o(k) but analyzed as o(n)
+
+// space complexity
+// balanced tree is o(logn) otherwise o(n) means skewed tree
