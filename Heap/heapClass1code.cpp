@@ -96,17 +96,20 @@ void heapify(int *arr, int n, int index) {
   }
 }
 
-void buildHeap(int arr[], int n) {
-  for(int index = n/2; index>0; index--) {
-    heapify(arr, n, index);
-  }
-}
+
 
 void heapSort(int arr[], int n) {
   while(n != 1 ) {
     swap(arr[1], arr[n]);
     n--;
     heapify(arr,n,1);
+  }
+}
+
+
+void buildHeap(int arr[], int n) {
+  for(int index = n/2; index>0; index--) {
+    heapify(arr, n, index);
   }
 }
 
