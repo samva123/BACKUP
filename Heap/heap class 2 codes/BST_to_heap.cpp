@@ -1,8 +1,2 @@
-void store()
+// it is a bt and bst both
 
-void convert(node * root){
-    vector<int> inorder;
-    store(root , inorder
-    
-    )
-}

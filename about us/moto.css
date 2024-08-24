@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+.icon {
+    height: 0.969rem;
+    width: 1.269rem;
+    position: absolute;
+    margin: 0 !important;
+    top: 5.219rem;
+    left: 10.975rem;
+  }
+  .combines-technology {
+    background: linear-gradient(118.19deg, #1fa2ff, #12d8fa 50%, #a6ffcb);
+  }
+  .combines-technology {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .expertise {
+    background: linear-gradient(117.83deg, #ff512f, #f09819);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .unparalleled-educational-exper {
+    background: linear-gradient(118.41deg, #e65c00, #f9d423);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .we-are-passionate-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: -0.02em;
+    line-height: 3.25rem;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+  .icon1 {
+    position: absolute;
+    top: 6.75rem;
+    left: 61.944rem;
+    width: 1.269rem;
+    height: 0.969rem;
+    z-index: 1;
+  }
+  .revolution {
+    height: 9.75rem;
+    width: 75rem;
+    position: absolute;
+    margin: 0 !important;
+    top: 5.625rem;
+    left: 7.5rem;
+    text-align: center;
+    font-size: 2.25rem;
+    color: #afb2bf;
+    font-family: Inter;
+  }
+  .root1 {
+    width: 100%;
+    height: 21rem;
+    position: relative;
+    border-bottom: 1px solid #2c333f;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 5.625rem 0;
+    gap: 0.625rem;
+    line-height: normal;
+    letter-spacing: normal;
+    background-color: #000814;
+  }
+  @media screen and (max-width: 767px) {
+    .we-are-passionate-container {
+      font-size: 1.813rem;
+      line-height: 2.625rem;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .we-are-passionate-container {
+      font-size: 1.375rem;
+      line-height: 1.938rem;
+    }
+  }
+  

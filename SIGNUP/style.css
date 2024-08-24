@@ -1,0 +1,648 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+.heroicons-solidchat-bubble-le {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .chat-on-us {
+    align-self: stretch;
+    position: relative;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #f1f2ff;
+  }
+  .mail-address,
+  .our-friendly-team {
+    align-self: stretch;
+    position: relative;
+    line-height: 22px;
+    font-weight: 500;
+  }
+  .mail-address {
+    font-weight: 600;
+  }
+  .contact-icons,
+  .contact-labels {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .contact-labels {
+    flex: 1;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 224px;
+  }
+  .contact-icons {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 12px;
+    box-sizing: border-box;
+    gap: 9px;
+  }
+  .div {
+    align-self: stretch;
+    position: relative;
+    line-height: 22px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .chat {
+    width: 450px;
+    border-radius: 12px;
+    background-color: #161d29;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 24px;
+    box-sizing: border-box;
+    gap: 24px;
+    min-width: 450px;
+    max-width: 100%;
+  }
+  .got-a-idea,
+  .tall-us-more {
+    align-self: stretch;
+    position: relative;
+  }
+  .got-a-idea {
+    margin: 0;
+    font-size: inherit;
+    letter-spacing: -0.02em;
+    line-height: 44px;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .tall-us-more {
+    line-height: 24px;
+    font-weight: 500;
+  }
+  .about {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 16px;
+    color: #838894;
+  }
+  .team,
+  .unlock-your-coding-potential-w {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .team {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .unlock-your-coding-potential-w {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: center;
+  }
+  .label-text {
+    position: relative;
+    line-height: 22px;
+    display: inline-block;
+    min-width: 72px;
+  }
+  .leading-icon,
+  .optional {
+    position: relative;
+    display: none;
+  }
+  .optional {
+    align-self: stretch;
+    width: 7px;
+    line-height: 22px;
+    color: #ef476f;
+  }
+  .leading-icon {
+    height: 14px;
+    width: 14px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .lable-text {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2px;
+  }
+  .container,
+  .fi-rr-info-icon {
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .container {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background-color: #161d29;
+    align-self: stretch;
+    height: 48px;
+    box-shadow: 0-1px 0 rgba(255, 255, 255, 0.18) inset;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px;
+    box-sizing: border-box;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    color: #999daa;
+    min-width: 172px;
+  }
+  .fi-rr-info-icon {
+    height: 14px;
+    width: 14px;
+    position: relative;
+  }
+  .helper-text1 {
+    height: 20px;
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+  }
+  .error-text {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+    min-width: 142px;
+  }
+  .helper-text2 {
+    height: 20px;
+    flex: 1;
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+  }
+  .link {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    min-width: 142px;
+    text-align: right;
+    color: #47a5c5;
+  }
+  .helper-text,
+  .input-field {
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 6px;
+  }
+  .helper-text {
+    align-self: stretch;
+    display: none;
+    flex-direction: row;
+    font-size: 12px;
+    color: #ef476f;
+  }
+  .input-field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 187px;
+  }
+  .label-text1 {
+    position: relative;
+    line-height: 22px;
+    display: inline-block;
+    min-width: 71px;
+  }
+  .fields {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .label-text2 {
+    position: relative;
+    line-height: 22px;
+    display: inline-block;
+    min-width: 95px;
+  }
+  .container2 {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background-color: #161d29;
+    align-self: stretch;
+    height: 48px;
+    box-shadow: 0-1px 0 rgba(255, 255, 255, 0.18) inset;
+    border-radius: 8px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px;
+    box-sizing: border-box;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    color: #999daa;
+    min-width: 250px;
+  }
+  .helper-text6,
+  .input-field2 {
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 6px;
+    max-width: 100%;
+  }
+  .helper-text6 {
+    width: 445px;
+    display: none;
+    flex-direction: row;
+    font-size: 12px;
+    color: #ef476f;
+  }
+  .input-field2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+  }
+  .label-text3 {
+    width: 99px;
+    position: relative;
+    line-height: 22px;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .lable-text3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    gap: 2px;
+  }
+  .leading-icon4 {
+    height: 22px;
+    width: 22px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+  }
+  .upload-pan-card {
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 29px;
+    white-space: nowrap;
+  }
+  .indicator {
+    height: 17px;
+    width: 1px;
+    position: relative;
+    border-right: 1px solid #6e727f;
+    box-sizing: border-box;
+    display: none;
+  }
+  .input-text-and-indicator {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+  }
+  .trailing-icon {
+    height: 18px;
+    width: 18px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .resizer-icon {
+    height: 8.4px;
+    width: 8.4px;
+    position: relative;
+    margin: 0 !important;
+    display: none;
+  }
+  .container3 {
+    box-shadow: 0-1px 0 rgba(255, 255, 255, 0.18) inset;
+    border-radius: 8px;
+    background-color: #161d29;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px;
+    gap: 12px;
+    font-size: 16px;
+    color: #999daa;
+  }
+  .helper-text10 {
+    align-self: stretch;
+    position: relative;
+    line-height: 20px;
+  }
+  .error-text3 {
+    height: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+  }
+  .helper-text11 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    line-height: 20px;
+  }
+  .link3 {
+    height: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    color: #47a5c5;
+  }
+  .helper-text9,
+  .input-field3 {
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 6px;
+  }
+  .helper-text9 {
+    align-self: stretch;
+    display: none;
+    flex-direction: row;
+    font-size: 12px;
+    color: #ef476f;
+  }
+  .input-field3 {
+    width: 81px;
+    display: flex;
+    flex-direction: column;
+  }
+  .field-pair,
+  .fields1,
+  .input-field4 {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .input-field4 {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background-color: #161d29;
+    height: 48px;
+    flex: 1;
+    box-shadow: 0-1px 0 rgba(255, 255, 255, 0.18) inset;
+    border-radius: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+    box-sizing: border-box;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    color: #999daa;
+    min-width: 300px;
+  }
+  .field-pair,
+  .fields1 {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 20px;
+  }
+  .field-pair {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .label-text4 {
+    position: relative;
+    line-height: 22px;
+    display: inline-block;
+    min-width: 61px;
+  }
+  .container4,
+  .fi-rr-add-icon {
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .container4 {
+    border: 0;
+    background-color: #161d29;
+    height: 123px;
+    width: auto;
+    outline: 0;
+    align-self: stretch;
+    box-shadow: 0-1px 0 rgba(255, 255, 255, 0.18) inset;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 4px 12px 3.6px;
+    box-sizing: border-box;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    color: #999daa;
+  }
+  .fi-rr-add-icon {
+    height: 18px;
+    width: 18px;
+    position: relative;
+    display: none;
+  }
+  .button {
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: Inter;
+    color: #000814;
+    text-align: center;
+    display: inline-block;
+    min-width: 114px;
+  }
+  .fi-rr-angle-small-down-icon {
+    height: 16px;
+    width: 16px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+  }
+  .primary-button {
+    cursor: pointer;
+    border: 0;
+    padding: 12px 20px;
+    background-color: #ffd60a;
+    align-self: stretch;
+    box-shadow: -0.5px -1.5px 0 rgba(0, 0, 0, 0.12) inset;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  .courses,
+  .root,
+  .upload {
+    display: flex;
+    align-items: flex-start;
+  }
+  .upload {
+    align-self: stretch;
+    background-color: #000814;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 36px;
+    max-width: 100%;
+    font-size: 14px;
+  }
+  .courses,
+  .root {
+    box-sizing: border-box;
+  }
+  .courses {
+    flex: 1;
+    border-radius: 12px;
+    border: 1px solid #424854;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 51px;
+    gap: 32px;
+    min-width: 454px;
+    max-width: 100%;
+    font-size: 36px;
+    color: #f1f2ff;
+  }
+  .root {
+    width: 100%;
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 90px 120px;
+    gap: 52px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: 14px;
+    color: #999daa;
+    font-family: Inter;
+    background-color: #000814;
+  }
+  @media screen and (max-width: 1125px) {
+    .chat,
+    .team {
+      flex: 1;
+    }
+    .root {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .got-a-idea {
+      font-size: 29px;
+      line-height: 35px;
+    }
+    .courses {
+      padding-top: 32px;
+      padding-bottom: 32px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .chat {
+      min-width: 100%;
+    }
+    .unlock-your-coding-potential-w {
+      gap: 26px;
+    }
+    .fields,
+    .fields1 {
+      flex-wrap: wrap;
+    }
+    .upload {
+      gap: 18px;
+    }
+    .courses,
+    .root {
+      box-sizing: border-box;
+    }
+    .courses {
+      gap: 16px;
+      padding-left: 25px;
+      padding-right: 25px;
+      min-width: 100%;
+    }
+    .root {
+      gap: 26px;
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .contact-icons {
+      flex-wrap: wrap;
+    }
+    .chat {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      box-sizing: border-box;
+    }
+    .got-a-idea {
+      font-size: 22px;
+      line-height: 26px;
+    }
+    .helper-text,
+    .helper-text6 {
+      flex-wrap: wrap;
+    }
+    .courses,
+    .root {
+      box-sizing: border-box;
+    }
+    .courses {
+      padding-top: 21px;
+      padding-bottom: 21px;
+    }
+    .root {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  
