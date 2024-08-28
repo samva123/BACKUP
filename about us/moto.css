@@ -38,6 +38,7 @@ body {
     display: inline-block;
     width: 100%;
     height: 100%;
+    margin-right: 20rem;
   }
   .icon1 {
     position: absolute;
@@ -51,7 +52,7 @@ body {
     height: 9.75rem;
     width: 75rem;
     position: absolute;
-    margin: 0 !important;
+    /* margin: 0 !important; */
     top: 5.625rem;
     left: 7.5rem;
     text-align: center;

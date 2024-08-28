@@ -1,0 +1,188 @@
+body{
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    background-color: /* #00001a */ rgb(3, 3, 20) ;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.navbar{
+    border-bottom: 1px solid black;
+    display: flex;
+    /* border: 2px solid white; */
+}
+
+.navbar img{
+    width: 150px;
+    padding-left: 80px;
+    padding-top: 0px;
+    padding-bottom: 12px;
+}
+.left{
+    padding-right: 15rem;;
+    /* border: 2px solid white; */
+}
+
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 80%; */
+    margin: 0;
+    /* border: 2px solid white; */
+}
+
+.mid a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 12px;
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+header{
+    border: 1px solid gainsboro;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+header .right{
+    display: flex;
+    padding-left: 23rem;
+    /* border: 2px solid white; */
+}
+
+header .right #search{
+    color: white;
+    margin-top: 6px;
+    font-size: 15px;
+}
+
+header .right #cart{
+    color: white;
+    margin-top: 6px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+header .right #profile{
+    color: white;
+    margin-top: 2px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.right a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 12px;
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    order: 1px solid gainsboro;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    background: #161D29;
+    height: 36rem;
+}
+
+#footer{
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+
+    border: 2px solid white;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+
+    margin-top: 20px;
+}
+
+footer #leftmost{
+    list-style: none;
+}
+
+footer #leftmost ul img{
+    width: 150px;
+}
+
+footer #leftmost ul i{
+    padding-right: 3px;
+}
+
+#center-line{
+    border-right: 2px solid white;
+    height: 425px;
+}
+
+#down{
+    border: 2px solid white;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#downmost{
+    margin-left: 150px;
+    margin-right: 150px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+footer #downmost #bottom-right{
+    margin-left: 420px;
+}
