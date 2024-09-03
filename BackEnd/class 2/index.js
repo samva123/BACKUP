@@ -62,7 +62,7 @@ app.use("/api/v1", todoRoutes);
 
 //start server
 app.listen(PORT, () => {
-  console.log(`Server started successfully att ${PORT}`);
+  console.log(`Server started successfully aatt ${PORT}`);
 });
 
 //connect to the database
